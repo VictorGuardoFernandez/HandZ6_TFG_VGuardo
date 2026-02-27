@@ -8,9 +8,6 @@
 
 **Zona 6 – Handstats (HandZ6)** es una aplicación diseñada para el registro y análisis en tiempo real de partidos de balonmano.
 
-El proyecto nace de una necesidad real detectada en el ámbito deportivo. Durante una conversación con mi padre, quien comenzó recientemente a entrenar categorías inferiores de balonmano, surgió la problemática: no existía una herramienta sencilla, rápida e intuitiva que permitiera registrar estadísticas en tiempo real sin perder el ritmo dinámico del juego.
-
-Tras varios meses de búsqueda sin éxito, identifiqué una oportunidad perfecta para desarrollar mi proyecto de fin de ciclo: crear una aplicación funcional, atractiva y realmente útil para entrenadores.
 
 ---
 
