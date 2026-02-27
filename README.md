@@ -61,7 +61,7 @@ Estas estadísticas permitirán:
 La versión para ordenador incluirá:
 
 - 🕒 Marcador digital en tiempo real  
-- 📊 Visualización de datos relevantes del encuentro  
+- 👥 Gestion de Usuarios 
 
 Esto no solo ayudará al entrenador, sino que también mejorará la experiencia de los espectadores, ofreciendo una presentación más profesional y visual que un marcador tradicional.
 
