@@ -1,0 +1,71 @@
+@startuml
+
+' ===== ENTITIES =====
+class Usuario
+class Rol
+class Jugador
+class Equipo
+class Partido
+class Evento
+class EventoTiro
+class TipoEvento
+
+' ===== RELACIONES PRINCIPALES =====
+Usuario --> Rol
+Jugador --> Equipo
+Partido --> Equipo
+Evento --> Partido
+Evento --> Jugador
+Evento --> TipoEvento
+EventoTiro --> Evento
+
+' ===== DAO =====
+class UsuarioDao
+class RolDao
+class JugadorDao
+class EquipoDao
+class PartidoDao
+class EventoDao
+class EventoTiroDao
+class TipoEventoDao
+
+UsuarioDao --> Usuario
+RolDao --> Rol
+JugadorDao --> Jugador
+EquipoDao --> Equipo
+PartidoDao --> Partido
+EventoDao --> Evento
+EventoTiroDao --> EventoTiro
+TipoEventoDao --> TipoEvento
+
+' ===== DTO =====
+class UsuarioDto
+class RolDto
+class JugadorDto
+class EquipoDto
+class PartidoDto
+class EventoDto
+class EventoTiroDto
+class TipoEventoDto
+
+UsuarioDto --> Usuario
+RolDto --> Rol
+JugadorDto --> Jugador
+EquipoDto --> Equipo
+PartidoDto --> Partido
+EventoDto --> Evento
+EventoTiroDto --> EventoTiro
+TipoEventoDto --> TipoEvento
+
+' ===== MAPPER =====
+class Mappers
+Mappers --> UsuarioDto
+Mappers --> Usuario
+
+' ===== DATABASE =====
+class AppDatabase
+AppDatabase --> UsuarioDao
+AppDatabase --> EquipoDao
+AppDatabase --> PartidoDao
+
+@enduml
